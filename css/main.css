@@ -1,0 +1,46 @@
+span {
+	font-size: 24pt;
+}
+
+body {
+	background-image: url(../img/7694182.png);
+	background-repeat: no-repeat;
+	background-position: 35% 0%;
+}
+
+input, div {
+	outline: none;
+	line-height: 30px;
+}
+
+button,
+input,
+select {
+	margin: 0;
+	font: inherit;
+	color: inherit;
+}
+
+button {
+	overflow: visible;
+}
+
+button,
+select {
+	text-transform: none;
+}
+
+button,
+html input[type="button"] {
+	-webkit-appearance: button;
+	cursor: pointer;
+}
+
+button[disabled],
+html input[disabled] {
+	cursor: default;
+}
+
+input {
+	line-height: normal;
+}

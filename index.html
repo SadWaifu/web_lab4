@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script src="script/script.js"></script>
+		<link rel="stylesheet" href="css/main.css">
+		
+		<title>Lab4</title>
+	</head>
+	<body>
+		<div>
+			<span id="counter_id">1</span>
+		</div>
+		<div>
+			<input type="button" onclick="increment()" value="+">
+			<input type="button" onclick="decrement()" value="-">
+			<input type="button" onclick="reset()" value="Reset">
+		</div>
+		<div>
+			<input type="button" onclick="set_color('ff0000')" value="Red">
+			<input type="button" onclick="set_color('00ff00')" value="Green">
+			<input type="button" onclick="set_color('0000ff')" value="Blue">
+		</div>
+		<div>
+			<select id="math_sel">
+				<option value="0">+</option>
+				<option value="1">-</option>
+				<option value="2">*</option>
+				<option value="3">/</option>
+			</select>
+			<input type="number" id="input_id" value="0">
+			<input type="button" onclick="equal()" value="=">
+		</div>
+	</body>
+</html>
